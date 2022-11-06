@@ -1,0 +1,20 @@
+[
+  {
+    "id": "3f9055f0-3f2f-11ed-bd3e-8df1114dc394",
+    "name": "Savannah Chen",
+    "recibe": 0,
+    "debe": 0
+  },
+  {
+    "id": "ece431c0-3f68-11ed-81aa-6f9e4601ae15",
+    "name": "Eva Abraham",
+    "recibe": 0,
+    "debe": 0
+  },
+  {
+    "id": "ee1b7940-3f68-11ed-81aa-6f9e4601ae15",
+    "name": "Ananias Barbosa",
+    "debe": 0,
+    "recibe": 0
+  }
+]
