@@ -1,0 +1,158 @@
+
+
+body {
+  background-color: antiquewhite;
+  color: #cb1d88;
+}
+
+a {
+  text-decoration: none;
+}
+
+h1 {
+  
+    color: hsl(0, 0%, 28%);
+    font-size: 30px;
+    font-weight: bold;
+    font-family: monospace;
+    letter-spacing: 7px;
+    cursor: pointer;
+    text-transform: uppercase;
+    padding: 64px;
+    background: linear-gradient(to right, hsl(0, 0%, 30%) 0, hsl(310, 85%, 38%) 10%, hsl(0, 0%, 30%) 20%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: shine 3s infinite linear;
+  }
+  
+  @keyframes shine {
+    0% {
+      background-position: 0;
+    }
+    60% {
+      background-position: 600px;
+    }
+    100% {
+      background-position: 600px;
+    }
+  }
+
+h1,h2,h3 {
+  font-family: "Montserrat", sans-serif;
+  text-align: center;
+  list-style-type: none;
+  color: #6e026e;
+}
+
+.header nav ul {
+  list-style-type: none;
+}
+
+header {
+  margin-bottom: 150px;
+}
+
+nav {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  float: right;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.button {
+  color: white;
+  background-color: rgb(124, 22, 126);
+  border: 2px solid rgb(124, 22, 126);
+  padding: 8px;
+  border-radius: 10px;
+  margin-left: 10px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 15px;
+
+}
+
+
+.button:hover {
+border: 2px solid transparent;
+color: rgb(255, 255, 255);
+background-color: rgb(0, 0, 0);
+transform: scale(1.05)
+}
+.galeria {
+ 
+  margin-left: 10px;
+  margin-right: 10px;
+  
+
+}
+
+.galeria .col-3 {
+ display: inline-block;
+ margin: 40px;
+
+}
+
+.galeria h2 {
+
+  padding: 20px;
+  text-transform: uppercase;
+  text-shadow:2px 2px 8px #d4d4d4;
+  color: #a704a7;
+}
+p {
+  font-family: "Cousine", monospace;
+  text-align: center;
+}
+.card-body {
+  background-color: rgb(255, 227, 251);
+   display: flex;
+   flex-wrap: wrap;
+   display: inline-block;
+}
+
+.contacto h2 {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.contacto button {
+  margin-top: 20px;
+}
+
+footer {
+
+  background-color: #f9b3de;
+  color: rgb(65, 7, 46);
+  padding-left: 50px;
+  text-transform: uppercase;
+  justify-content: center;
+
+
+}
+
+
+footer .iconos li{
+
+  display: inline-block;
+  margin-left: 33px;
+  color: white;
+  font-size: 35px;
+  list-style-type: none;
+  text-decoration: none;
+  padding-top: 30px;
+
+
+}
+
+footer .integrantes {
+
+  padding: 35px;
+
+}
+
+
+.box {
+  margin: 0 auto;
+}
+
